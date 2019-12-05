@@ -3,7 +3,7 @@ require 'mime/types'
 require 'phash/text'
 require 'phash/audio'
 require 'phash/image'
-# require 'phash/video'
+require 'phash/video'
 
 folder     = ARGV[0]
 thresholds = { text: 0.5, audio: 0.6, image: 0.6, video: 0.5, binary: 1.0 }
